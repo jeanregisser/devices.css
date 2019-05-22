@@ -1,5 +1,5 @@
 .marvel-device{
-  font-size: 1px;
+  font-size: 100px;
 	display: inline-block;
 	position: relative;
 	box-sizing: content-box !important;
@@ -12,8 +12,8 @@
 		background: white;
 		overflow: hidden;
 		display: block;
-		border-radius: 1em;
-		box-shadow: 0 0 0 3em #111;
+		border-radius: 0.01em;
+		box-shadow: 0 0 0 0.03em #111;
 	}
 
 	.screen > *{
@@ -21,62 +21,62 @@
 	}
 
 	.top-bar, .bottom-bar {
-		height: 3em;
+		height: 0.03em;
 		background: black;
 		width: 100%;
 		display: block;
 	}
 
 	.middle-bar {
-		width: 3em;
-		height: 4em;
+		width: 0.03em;
+		height: 0.04em;
 		top: 0em;
-		left: 90em;
+		left: 0.90em;
 		background: black;
 		position: absolute;
 	}
 
 	&.iphone8{
-		width: 375em;
-		height: 667em;
-		padding: 105em 24em;
+		width: 3.75em;
+		height: 6.67em;
+		padding: 1.05em 0.24em;
 		background: #d9dbdc;
-		border-radius: 56em;
-		box-shadow:inset 0 0 3em 0 rgba(0, 0, 0, 0.2);
+		border-radius: 0.56em;
+		box-shadow:inset 0 0 0.03em 0 rgba(0, 0, 0, 0.2);
 
 		&:before{
-			width: calc(100% - 12em);
-			height: calc(100% - 12em);
+			width: calc(100% - 0.12em);
+			height: calc(100% - 0.12em);
 			position: absolute;
-			top: 6em;
+			top: 0.06em;
 			content: '';
-			left: 6em;
-			border-radius: 50em;
+			left: 0.06em;
+			border-radius: 0.50em;
 			background: #f8f8f8;
 			z-index: 1;
 		}
 
 		&:after{
-			width: calc(100% - 16em);
-			height: calc(100% - 16em);
+			width: calc(100% - 0.16em);
+			height: calc(100% - 0.16em);
 			position: absolute;
-			top: 8em;
+			top: 0.08em;
 			content: '';
-			left: 8em;
-			border-radius: 48em;
-			box-shadow:inset 0 0 3em 0 rgba(0, 0, 0, 0.1),
-			inset 0 0 6em 3em #FFFFFF;
+			left: 0.08em;
+			border-radius: 0.48em;
+			box-shadow:inset 0 0 0.03em 0 rgba(0, 0, 0, 0.1),
+			inset 0 0 0.06em 0.03em #FFFFFF;
 			z-index: 2;
 		}
 
 		.home {
 			border-radius: 100%;
-			width: 68em;
-			height: 68em;
+			width: 0.68em;
+			height: 0.68em;
 			position: absolute;
 			left: 50%;
-			margin-left: -34em;
-			bottom: 22em;
+			margin-left: -0.34em;
+			bottom: 0.22em;
 			z-index: 3;
 			background: rgb(48,50,51);
 			background: linear-gradient(135deg, rgba(48,50,51,1) 0%,rgba(181,183,185,1) 50%,rgba(240,242,242,1) 69%,rgba(48,50,51,1) 100%);
@@ -86,56 +86,56 @@
 				position: absolute;
 				content: '';
 				border-radius: 100%;
-				width: calc(100% - 8em);
-				height: calc(100% - 8em);
-				top: 4em;
-				left: 4em;
+				width: calc(100% - 0.08em);
+				height: calc(100% - 0.08em);
+				top: 0.04em;
+				left: 0.04em;
 			}
 		}
 
 		.top-bar{
-			height: 14em;
+			height: 0.14em;
 			background: #bfbfc0;
 			position: absolute;
-			top: 68em;
+			top: 0.68em;
 			left: 0;
 		}
 
 		.bottom-bar{
-			height: 14em;
+			height: 0.14em;
 			background: #bfbfc0;
 			position: absolute;
-			bottom: 68em;
+			bottom: 0.68em;
 			left: 0;
 		}
 
 		.sleep{
 			position: absolute;
-			top: 190em;
-			right: -4em;
-			width: 4em;
-			height: 66em;
-			border-radius: 0em 2em 2em 0em;
+			top: 1.90em;
+			right: -0.04em;
+			width: 0.04em;
+			height: 0.66em;
+			border-radius: 0em 0.02em 0.02em 0em;
 			background: #d9dbdc;
 		}
 
 		.volume{
 			position: absolute;
-			left: -4em;
-			top: 188em;
+			left: -0.04em;
+			top: 1.88em;
 			z-index: 0;
-			height: 66em;
-			width: 4em;
-			border-radius: 2em 0em 0em 2em;
+			height: 0.66em;
+			width: 0.04em;
+			border-radius: 0.02em 0em 0em 0.02em;
 			background: #d9dbdc;
 
 			&:before {
 				position: absolute;
-				left: 2em;
-				top: -78em;
-				height: 40em;
-				width: 2em;
-				border-radius: 2em 0em 0em 2em;
+				left: 0.02em;
+				top: -0.78em;
+				height: 0.40em;
+				width: 0.02em;
+				border-radius: 0.02em 0em 0em 0.02em;
 				background: inherit;
 				content: '';
 				display: block;
@@ -144,10 +144,10 @@
 			&:after {
 				position: absolute;
 				left: 0em;
-				top: 82em;
-				height: 66em;
-				width: 4em;
-				border-radius: 2em 0em 0em 2em;
+				top: 0.82em;
+				height: 0.66em;
+				width: 0.04em;
+				border-radius: 0.02em 0em 0em 0.02em;
 				background: inherit;
 				content: '';
 				display: block;
@@ -156,36 +156,36 @@
 
 		.camera {
 			background: #3c3d3d;
-			width: 12em;
-			height: 12em;
+			width: 0.12em;
+			height: 0.12em;
 			position: absolute;
-			top: 24em;
+			top: 0.24em;
 			left: 50%;
-			margin-left: -6em;
+			margin-left: -0.06em;
 			border-radius: 100%;
 			z-index: 3;
 		}
 
 		.sensor {
 			background: #3c3d3d;
-			width: 16em;
-			height: 16em;
+			width: 0.16em;
+			height: 0.16em;
 			position: absolute;
-			top: 49em;
-			left: 134em;
+			top: 0.49em;
+			left: 1.34em;
 			z-index: 3;
 			border-radius: 100%;
 		}
 
 		.speaker {
 			background: #292728;
-			width: 70em;
-			height: 6em;
+			width: 0.70em;
+			height: 0.06em;
 			position: absolute;
-			top: 54em;
+			top: 0.54em;
 			left: 50%;
-			margin-left: -35em;
-			border-radius: 6em;
+			margin-left: -0.35em;
+			border-radius: 0.06em;
 			z-index: 3;
 		}
 
@@ -208,7 +208,7 @@
 
 		&.black{
 			background: #464646;
-			box-shadow: inset 0 0 3em 0 rgba(0, 0, 0, 0.7);
+			box-shadow: inset 0 0 0.03em 0 rgba(0, 0, 0, 0.7);
 
 			&:before{
 				background: #080808;
@@ -216,8 +216,8 @@
 
 			&:after{
 				box-shadow:
-					inset 0 0 3em 0 rgba(0, 0, 0, 0.1),
-					inset 0 0 6em 3em #212121;
+					inset 0 0 0.03em 0 rgba(0, 0, 0, 0.1),
+					inset 0 0 0.06em 0.03em #212121;
 			}
 
 			.top-bar, .bottom-bar{
@@ -244,128 +244,128 @@
 		}
 
 		&.landscape{
-			padding: 24em 105em;
-			height: 375em;
-			width: 667em;
+			padding: 0.24em 1.05em;
+			height: 3.75em;
+			width: 6.67em;
 
 			.sleep{
 				top: 100%;
-				border-radius: 0em 0em 2em 2em;
-				right: 190em;
-				height: 4em;
-				width: 66em;
+				border-radius: 0em 0em 0.02em 0.02em;
+				right: 1.90em;
+				height: 0.04em;
+				width: 0.66em;
 			}
 
 			.volume {
-				width: 66em;
-				height: 4em;
-				top: -4em;
-				left: calc(100% - 188em - 66em);
-				border-radius: 2em 2em 0em 0em;
+				width: 0.66em;
+				height: 0.04em;
+				top: -0.04em;
+				left: calc(100% - 1.88em - 0.66em);
+				border-radius: 0.02em 0.02em 0em 0em;
 
 				&:before {
-					width: 40em;
-					height: 2em;
-					top: 2em;
-					right: -78em;
+					width: 0.40em;
+					height: 0.02em;
+					top: 0.02em;
+					right: -0.78em;
 					left: auto;
-					border-radius: 2em 2em 0em 0em;
+					border-radius: 0.02em 0.02em 0em 0em;
 				}
 
 				&:after{
-					left: -82em;
-					width: 66em;
-					height: 4em;
+					left: -0.82em;
+					width: 0.66em;
+					height: 0.04em;
 					top: 0;
-					border-radius: 2em 2em 0em 0em;
+					border-radius: 0.02em 0.02em 0em 0em;
 				}
 			}
 
 			.top-bar{
-				width: 14em;
+				width: 0.14em;
 				height: 100%;
-				left: calc(100% - 68em -  14em);
+				left: calc(100% - 0.68em -  0.14em);
 				top: 0;
 			}
 
 			.bottom-bar{
-				width: 14em;
+				width: 0.14em;
 				height: 100%;
-				left: 68em;
+				left: 0.68em;
 				top: 0;
 			}
 
 			.home{
 				top: 50%;
-				margin-top: -34em;
+				margin-top: -0.34em;
 				margin-left: 0;
-				left: 22em;
+				left: 0.22em;
 			}
 
 			.sensor {
-				top: 134em;
-				left: calc(100% - 49em - 16em);
+				top: 1.34em;
+				left: calc(100% - 0.49em - 0.16em);
 			}
 
 			.speaker {
-				height: 70em;
-				width: 6em;
-				left: calc(100% - 54em - 6em);
+				height: 0.70em;
+				width: 0.06em;
+				left: calc(100% - 0.54em - 0.06em);
 				top: 50%;
 				margin-left: 0em;
-				margin-top: -35em;
+				margin-top: -0.35em;
 			}
 
 			.camera {
-				left: calc(100% - 32em);
+				left: calc(100% - 0.32em);
 				top: 50%;
 				margin-left: 0em;
-				margin-top: -5em;
+				margin-top: -0.05em;
 			}
 		}
 	}
 
 	&.iphone8plus{
-		width: 414em;
-		height: 736em;
-		padding: 112em 26em;
+		width: 4.14em;
+		height: 7.36em;
+		padding: 1.12em 0.26em;
 		background: #d9dbdc;
-		border-radius: 56em;
-		box-shadow:inset 0 0 3em 0 rgba(0, 0, 0, 0.2);
+		border-radius: 0.56em;
+		box-shadow:inset 0 0 0.03em 0 rgba(0, 0, 0, 0.2);
 
 		&:before{
-			width: calc(100% - 12em);
-			height: calc(100% - 12em);
+			width: calc(100% - 0.12em);
+			height: calc(100% - 0.12em);
 			position: absolute;
-			top: 6em;
+			top: 0.06em;
 			content: '';
-			left: 6em;
-			border-radius: 50em;
+			left: 0.06em;
+			border-radius: 0.50em;
 			background: #f8f8f8;
 			z-index: 1;
 		}
 
 		&:after{
-			width: calc(100% - 16em);
-			height: calc(100% - 16em);
+			width: calc(100% - 0.16em);
+			height: calc(100% - 0.16em);
 			position: absolute;
-			top: 8em;
+			top: 0.08em;
 			content: '';
-			left: 8em;
-			border-radius: 48em;
-			box-shadow: inset 0 0 3em 0 rgba(0, 0, 0, 0.1),
-				inset 0 0 6em 3em #FFFFFF;
+			left: 0.08em;
+			border-radius: 0.48em;
+			box-shadow: inset 0 0 0.03em 0 rgba(0, 0, 0, 0.1),
+				inset 0 0 0.06em 0.03em #FFFFFF;
 			z-index: 2;
 		}
 
 		.home {
 			border-radius: 100%;
-			width: 68em;
-			height: 68em;
+			width: 0.68em;
+			height: 0.68em;
 			position: absolute;
 			left: 50%;
-			margin-left: -34em;
-			bottom: 24em;
+			margin-left: -0.34em;
+			bottom: 0.24em;
 			z-index: 3;
 			background: rgb(48,50,51);
 			background: linear-gradient(135deg, rgba(48,50,51,1) 0%,rgba(181,183,185,1) 50%,rgba(240,242,242,1) 69%,rgba(48,50,51,1) 100%);
@@ -375,56 +375,56 @@
 				position: absolute;
 				content: '';
 				border-radius: 100%;
-				width: calc(100% - 8em);
-				height: calc(100% - 8em);
-				top: 4em;
-				left: 4em;
+				width: calc(100% - 0.08em);
+				height: calc(100% - 0.08em);
+				top: 0.04em;
+				left: 0.04em;
 			}
 		}
 
 		.top-bar{
-			height: 14em;
+			height: 0.14em;
 			background: #bfbfc0;
 			position: absolute;
-			top: 68em;
+			top: 0.68em;
 			left: 0;
 		}
 
 		.bottom-bar{
-			height: 14em;
+			height: 0.14em;
 			background: #bfbfc0;
 			position: absolute;
-			bottom: 68em;
+			bottom: 0.68em;
 			left: 0;
 		}
 
 		.sleep{
 			position: absolute;
-			top: 190em;
-			right: -4em;
-			width: 4em;
-			height: 66em;
-			border-radius: 0em 2em 2em 0em;
+			top: 1.90em;
+			right: -0.04em;
+			width: 0.04em;
+			height: 0.66em;
+			border-radius: 0em 0.02em 0.02em 0em;
 			background: #d9dbdc;
 		}
 
 		.volume{
 			position: absolute;
-			left: -4em;
-			top: 188em;
+			left: -0.04em;
+			top: 1.88em;
 			z-index: 0;
-			height: 66em;
-			width: 4em;
-			border-radius: 2em 0em 0em 2em;
+			height: 0.66em;
+			width: 0.04em;
+			border-radius: 0.02em 0em 0em 0.02em;
 			background: #d9dbdc;
 
 			&:before {
 				position: absolute;
-				left: 2em;
-				top: -78em;
-				height: 40em;
-				width: 2em;
-				border-radius: 2em 0em 0em 2em;
+				left: 0.02em;
+				top: -0.78em;
+				height: 0.40em;
+				width: 0.02em;
+				border-radius: 0.02em 0em 0em 0.02em;
 				background: inherit;
 				content: '';
 				display: block;
@@ -433,10 +433,10 @@
 			&:after {
 				position: absolute;
 				left: 0em;
-				top: 82em;
-				height: 66em;
-				width: 4em;
-				border-radius: 2em 0em 0em 2em;
+				top: 0.82em;
+				height: 0.66em;
+				width: 0.04em;
+				border-radius: 0.02em 0em 0em 0.02em;
 				background: inherit;
 				content: '';
 				display: block;
@@ -445,36 +445,36 @@
 
 		.camera {
 			background: #3c3d3d;
-			width: 12em;
-			height: 12em;
+			width: 0.12em;
+			height: 0.12em;
 			position: absolute;
-			top: 29em;
+			top: 0.29em;
 			left: 50%;
-			margin-left: -6em;
+			margin-left: -0.06em;
 			border-radius: 100%;
 			z-index: 3;
 		}
 
 		.sensor {
 			background: #3c3d3d;
-			width: 16em;
-			height: 16em;
+			width: 0.16em;
+			height: 0.16em;
 			position: absolute;
-			top: 54em;
-			left: 154em;
+			top: 0.54em;
+			left: 1.54em;
 			z-index: 3;
 			border-radius: 100%;
 		}
 
 		.speaker {
 			background: #292728;
-			width: 70em;
-			height: 6em;
+			width: 0.70em;
+			height: 0.06em;
 			position: absolute;
-			top: 59em;
+			top: 0.59em;
 			left: 50%;
-			margin-left: -35em;
-			border-radius: 6em;
+			margin-left: -0.35em;
+			border-radius: 0.06em;
 			z-index: 3;
 		}
 
@@ -497,7 +497,7 @@
 
 		&.black{
 			background: #464646;
-			box-shadow:inset 0 0 3em 0 rgba(0, 0, 0, 0.7);
+			box-shadow:inset 0 0 0.03em 0 rgba(0, 0, 0, 0.7);
 
 			&:before{
 				background: #080808;
@@ -505,8 +505,8 @@
 
 			&:after{
 				box-shadow:
-					inset 0 0 3em 0 rgba(0, 0, 0, 0.1),
-					inset 0 0 6em 3em #212121;
+					inset 0 0 0.03em 0 rgba(0, 0, 0, 0.1),
+					inset 0 0 0.06em 0.03em #212121;
 			}
 
 			.top-bar, .bottom-bar{
@@ -533,133 +533,133 @@
 		}
 
 		&.landscape{
-			padding: 26em 112em;
-			height: 414em;
-			width: 736em;
+			padding: 0.26em 1.12em;
+			height: 4.14em;
+			width: 7.36em;
 
 			.sleep{
 				top: 100%;
-				border-radius: 0em 0em 2em 2em;
-				right: 190em;
-				height: 4em;
-				width: 66em;
+				border-radius: 0em 0em 0.02em 0.02em;
+				right: 1.90em;
+				height: 0.04em;
+				width: 0.66em;
 			}
 
 			.volume {
-				width: 66em;
-				height: 4em;
-				top: -4em;
-				left: calc(100% - 188em - 66em);
-				border-radius: 2em 2em 0em 0em;
+				width: 0.66em;
+				height: 0.04em;
+				top: -0.04em;
+				left: calc(100% - 1.88em - 0.66em);
+				border-radius: 0.02em 0.02em 0em 0em;
 
 				&:before {
-					width: 40em;
-					height: 2em;
-					top: 2em;
-					right: -78em;
+					width: 0.40em;
+					height: 0.02em;
+					top: 0.02em;
+					right: -0.78em;
 					left: auto;
-					border-radius: 2em 2em 0em 0em;
+					border-radius: 0.02em 0.02em 0em 0em;
 				}
 
 				&:after{
-					left: -82em;
-					width: 66em;
-					height: 4em;
+					left: -0.82em;
+					width: 0.66em;
+					height: 0.04em;
 					top: 0;
-					border-radius: 2em 2em 0em 0em;
+					border-radius: 0.02em 0.02em 0em 0em;
 				}
 			}
 
 			.top-bar{
-				width: 14em;
+				width: 0.14em;
 				height: 100%;
-				left: calc(100% - 68em -  14em);
+				left: calc(100% - 0.68em -  0.14em);
 				top: 0;
 			}
 
 			.bottom-bar{
-				width: 14em;
+				width: 0.14em;
 				height: 100%;
-				left: 68em;
+				left: 0.68em;
 				top: 0;
 			}
 
 			.home{
 				top: 50%;
-				margin-top: -34em;
+				margin-top: -0.34em;
 				margin-left: 0;
-				left: 24em;
+				left: 0.24em;
 			}
 
 			.sensor {
-				top: 154em;
-				left: calc(100% - 54em - 16em);
+				top: 1.54em;
+				left: calc(100% - 0.54em - 0.16em);
 			}
 
 			.speaker {
-				height: 70em;
-				width: 6em;
-				left: calc(100% - 59em - 6em);
+				height: 0.70em;
+				width: 0.06em;
+				left: calc(100% - 0.59em - 0.06em);
 				top: 50%;
 				margin-left: 0em;
-				margin-top: -35em;
+				margin-top: -0.35em;
 			}
 
 			.camera {
-				left: calc(100% - 29em);
+				left: calc(100% - 0.29em);
 				top: 50%;
 				margin-left: 0em;
-				margin-top: -5em;
+				margin-top: -0.05em;
 			}
 		}
 	}
 
 	&.iphone5s, &.iphone5c{
-		padding: 105em 22em;
+		padding: 1.05em 0.22em;
 		background: #2c2b2c;
-		width: 320em;
-		height: 568em;
-		border-radius: 50em;
+		width: 3.20em;
+		height: 5.68em;
+		border-radius: 0.50em;
 
 		&:before{
-			width: calc(100% - 8em);
-			height: calc(100% - 8em);
+			width: calc(100% - 0.08em);
+			height: calc(100% - 0.08em);
 			position: absolute;
-			top: 4em;
+			top: 0.04em;
 			content: '';
-			left: 4em;
-			border-radius: 46em;
+			left: 0.04em;
+			border-radius: 0.46em;
 			background: #1e1e1e;
 			z-index: 1;
 		}
 
 		.sleep{
 			position: absolute;
-			top: -4em;
-			right: 60em;
-			width: 60em;
-			height: 4em;
-			border-radius: 2em 2em 0em 0em;
+			top: -0.04em;
+			right: 0.60em;
+			width: 0.60em;
+			height: 0.04em;
+			border-radius: 0.02em 0.02em 0em 0em;
 			background: #282727;
 		}
 
 		.volume{
 			position: absolute;
-			left: -4em;
-			top: 180em;
+			left: -0.04em;
+			top: 1.80em;
 			z-index: 0;
-			height: 27em;
-			width: 4em;
-			border-radius: 2em 0em 0em 2em;
+			height: 0.27em;
+			width: 0.04em;
+			border-radius: 0.02em 0em 0em 0.02em;
 			background: #282727;
 
 			&:before {
 				position: absolute;
 				left: 0em;
-				top: -75em;
-				height: 35em;
-				width: 4em;
-				border-radius: 2em 0em 0em 2em;
+				top: -0.75em;
+				height: 0.35em;
+				width: 0.04em;
+				border-radius: 0.02em 0em 0em 0.02em;
 				background: inherit;
 				content: '';
 				display: block;
@@ -668,10 +668,10 @@
 			&:after {
 				position: absolute;
 				left: 0em;
-				bottom: -64em;
-				height: 27em;
-				width: 4em;
-				border-radius: 2em 0em 0em 2em;
+				bottom: -0.64em;
+				height: 0.27em;
+				width: 0.04em;
+				border-radius: 0.02em 0em 0em 0.02em;
 				background: inherit;
 				content: '';
 				display: block;
@@ -680,149 +680,149 @@
 
 		.camera {
 			background: #3c3d3d;
-			width: 10em;
-			height: 10em;
+			width: 0.10em;
+			height: 0.10em;
 			position: absolute;
-			top: 32em;
+			top: 0.32em;
 			left: 50%;
-			margin-left: -5em;
-			border-radius: 5em;
+			margin-left: -0.05em;
+			border-radius: 0.05em;
 			z-index: 3;
 		}
 
 		.sensor {
 			background: #3c3d3d;
-			width: 10em;
-			height: 10em;
+			width: 0.10em;
+			height: 0.10em;
 			position: absolute;
-			top: 60em;
-			left: 160em;
+			top: 0.60em;
+			left: 1.60em;
 			z-index: 3;
-			margin-left: -32em;
-			border-radius: 5em;
+			margin-left: -0.32em;
+			border-radius: 0.05em;
 		}
 
 		.speaker {
 			background: #292728;
-			width: 64em;
-			height: 10em;
+			width: 0.64em;
+			height: 0.10em;
 			position: absolute;
-			top: 60em;
+			top: 0.60em;
 			left: 50%;
-			margin-left: -32em;
-			border-radius: 5em;
+			margin-left: -0.32em;
+			border-radius: 0.05em;
 			z-index: 3;
 		}
 
 		&.landscape{
-			padding: 22em 105em;
-			height: 320em;
-			width: 568em;
+			padding: 0.22em 1.05em;
+			height: 3.20em;
+			width: 5.68em;
 
 			.sleep{
-				right: -4em;
-				top: calc(100% - 120em);
-				height: 60em;
-				width: 4em;
-				border-radius: 0em 2em 2em 0em;
+				right: -0.04em;
+				top: calc(100% - 1.20em);
+				height: 0.60em;
+				width: 0.04em;
+				border-radius: 0em 0.02em 0.02em 0em;
 			}
 
 			.volume {
-				width: 27em;
-				height: 4em;
-				top: -4em;
-				left: calc(100% - 180em);
-				border-radius: 2em 2em 0em 0em;
+				width: 0.27em;
+				height: 0.04em;
+				top: -0.04em;
+				left: calc(100% - 1.80em);
+				border-radius: 0.02em 0.02em 0em 0em;
 
 				&:before {
-					width: 35em;
-					height: 4em;
+					width: 0.35em;
+					height: 0.04em;
 					top: 0em;
-					right: -75em;
+					right: -0.75em;
 					left: auto;
-					border-radius: 2em 2em 0em 0em;
+					border-radius: 0.02em 0.02em 0em 0em;
 				}
 
 				&:after{
 					bottom: 0em;
-					left: -64em;
+					left: -0.64em;
 					z-index: 999;
-					height: 4em;
-					width: 27em;
-					border-radius: 2em 2em 0em 0em;
+					height: 0.04em;
+					width: 0.27em;
+					border-radius: 0.02em 0.02em 0em 0em;
 				}
 			}
 
 			.sensor {
-				top: 160em;
-				left: calc(100% - 60em);
+				top: 1.60em;
+				left: calc(100% - 0.60em);
 				margin-left: 0em;
-				margin-top: -32em;
+				margin-top: -0.32em;
 			}
 
 			.speaker {
-				height: 64em;
-				width: 10em;
-				left: calc(100% - 60em);
+				height: 0.64em;
+				width: 0.10em;
+				left: calc(100% - 0.60em);
 				top: 50%;
 				margin-left: 0em;
-				margin-top: -32em;
+				margin-top: -0.32em;
 			}
 
 			.camera {
-				left: calc(100% - 32em);
+				left: calc(100% - 0.32em);
 				top: 50%;
 				margin-left: 0em;
-				margin-top: -5em;
+				margin-top: -0.05em;
 			}
 		}
 	}
 
 	&.iphone5s{
 		.home {
-			border-radius: 36em;
-			width: 68em;
-			box-shadow: inset 0 0 0 4em #2c2b2c;
-			height: 68em;
+			border-radius: 0.36em;
+			width: 0.68em;
+			box-shadow: inset 0 0 0 0.04em #2c2b2c;
+			height: 0.68em;
 			position: absolute;
 			left: 50%;
-			margin-left: -34em;
-			bottom: 19em;
+			margin-left: -0.34em;
+			bottom: 0.19em;
 			z-index: 3;
 		}
 
 		.top-bar{
-			top: 70em;
+			top: 0.70em;
 			position: absolute;
 			left: 0;
 		}
 
 		.bottom-bar {
-			bottom: 70em;
+			bottom: 0.70em;
 			position: absolute;
 			left: 0;
 		}
 
 		&.landscape{
 			.home {
-				left: 19em;
+				left: 0.19em;
 				bottom: 50%;
-				margin-bottom: -34em;
+				margin-bottom: -0.34em;
 				margin-left: 0em;
 			}
 
 			.top-bar {
-				left: 70em;
+				left: 0.70em;
 				top: 0em;
-				width: 3em;
+				width: 0.03em;
 				height: 100%;
 			}
 
 			.bottom-bar {
-				right: 70em;
+				right: 0.70em;
 				left: auto;
 				bottom: 0em;
-				width: 3em;
+				width: 0.03em;
 				height: 100%;
 			}
 		}
@@ -843,7 +843,7 @@
 			}
 
 			.home{
-				box-shadow: inset 0 0 0 4em #bcbcbc;
+				box-shadow: inset 0 0 0 0.04em #bcbcbc;
 			}
 		}
 
@@ -863,14 +863,14 @@
 			}
 
 			.home{
-				box-shadow: inset 0 0 0 4em #f9e7d3;
+				box-shadow: inset 0 0 0 0.04em #f9e7d3;
 			}
 		}
 	}
 
 	&.iphone5c{
 		background: white;
-		box-shadow: 0 1em 2em 0 rgba(0,0,0,0.2);
+		box-shadow: 0 0.01em 0.02em 0 rgba(0,0,0,0.2);
 
 		.top-bar, .bottom-bar{
 			display: none;
@@ -878,35 +878,35 @@
 
 		.home{
 			background: #242324;
-			border-radius: 36em;
-			width: 68em;
-			height: 68em;
+			border-radius: 0.36em;
+			width: 0.68em;
+			height: 0.68em;
 			z-index: 3;
 			position: absolute;
 			left: 50%;
-			margin-left: -34em;
-			bottom: 19em;
+			margin-left: -0.34em;
+			bottom: 0.19em;
 
 			&:after{
-				width: 20em;
-				height: 20em;
-				border: 1em solid rgba(255, 255, 255, 0.1);
-				border-radius: 4em;
+				width: 0.20em;
+				height: 0.20em;
+				border: 0.01em solid rgba(255, 255, 255, 0.1);
+				border-radius: 0.04em;
 				position: absolute;
 				display: block;
 				content: '';
 				top: 50%;
 				left: 50%;
-				margin-top: -11em;
-				margin-left: -11em;
+				margin-top: -0.11em;
+				margin-left: -0.11em;
 			}
 		}
 
 		&.landscape{
 			.home {
-				left: 19em;
+				left: 0.19em;
 				bottom: 50%;
-				margin-bottom: -34em;
+				margin-bottom: -0.34em;
 				margin-left: 0em;
 			}
 		}
@@ -949,124 +949,124 @@
 	}
 
 	&.iphone4s{
-		padding: 129em 27em;
-		width: 320em;
-		height: 480em;
+		padding: 1.29em 0.27em;
+		width: 3.20em;
+		height: 4.80em;
 		background: #686868;
-		border-radius: 54em;
+		border-radius: 0.54em;
 
 		&:before{
 			content: '';
-			width: calc(100% - 8em);
-			height: calc(100% - 8em);
+			width: calc(100% - 0.08em);
+			height: calc(100% - 0.08em);
 			position: absolute;
-			top: 4em;
-			left: 4em;
+			top: 0.04em;
+			left: 0.04em;
 			z-index: 1;
-			border-radius: 50em;
+			border-radius: 0.50em;
 			background: #1e1e1e;
 		}
 
 		.top-bar {
-			top: 60em;
+			top: 0.60em;
 			position: absolute;
 			left: 0;
 		}
 
 		.bottom-bar {
-			bottom: 90em;
+			bottom: 0.90em;
 			position: absolute;
 			left: 0;
 		}
 
 		.camera {
 			background: #3c3d3d;
-			width: 10em;
-			height: 10em;
+			width: 0.10em;
+			height: 0.10em;
 			position: absolute;
-			top: 72em;
-			left: 134em;
+			top: 0.72em;
+			left: 1.34em;
 			z-index: 3;
-			margin-left: -5em;
+			margin-left: -0.05em;
 			border-radius: 100%;
 		}
 
 		.speaker {
 			background: #292728;
-			width: 64em;
-			height: 10em;
+			width: 0.64em;
+			height: 0.10em;
 			position: absolute;
-			top: 72em;
+			top: 0.72em;
 			left: 50%;
 			z-index: 3;
-			margin-left: -32em;
-			border-radius: 5em;
+			margin-left: -0.32em;
+			border-radius: 0.05em;
 		}
 
 		.sensor {
 			background: #292728;
-			width: 40em;
-			height: 10em;
+			width: 0.40em;
+			height: 0.10em;
 			position: absolute;
-			top: 36em;
+			top: 0.36em;
 			left: 50%;
 			z-index: 3;
-			margin-left: -20em;
-			border-radius: 5em;
+			margin-left: -0.20em;
+			border-radius: 0.05em;
 		}
 
 		.home {
 			background: #242324;
 			border-radius: 100%;
-			width: 72em;
-			height: 72em;
+			width: 0.72em;
+			height: 0.72em;
 			z-index: 3;
 			position: absolute;
 			left: 50%;
-			margin-left: -36em;
-			bottom: 30em;
+			margin-left: -0.36em;
+			bottom: 0.30em;
 
 			&:after {
-				width: 20em;
-				height: 20em;
-				border: 1em solid rgba(255, 255, 255, 0.1);
-				border-radius: 4em;
+				width: 0.20em;
+				height: 0.20em;
+				border: 0.01em solid rgba(255, 255, 255, 0.1);
+				border-radius: 0.04em;
 				position: absolute;
 				display: block;
 				content: '';
 				top: 50%;
 				left: 50%;
-				margin-top: -11em;
-				margin-left: -11em;
+				margin-top: -0.11em;
+				margin-left: -0.11em;
 			}
 		}
 
 		.sleep {
 			position: absolute;
-			top: -4em;
-			right: 60em;
-			width: 60em;
-			height: 4em;
-			border-radius: 2em 2em 0em 0em;
+			top: -0.04em;
+			right: 0.60em;
+			width: 0.60em;
+			height: 0.04em;
+			border-radius: 0.02em 0.02em 0em 0em;
 			background: #4D4D4D;
 		}
 
 		.volume {
 			position: absolute;
-			left: -4em;
-			top: 160em;
-			height: 27em;
-			width: 4em;
-			border-radius: 2em 0em 0em 2em;
+			left: -0.04em;
+			top: 1.60em;
+			height: 0.27em;
+			width: 0.04em;
+			border-radius: 0.02em 0em 0em 0.02em;
 			background: #4D4D4D;
 
 			&:before {
 				position: absolute;
 				left: 0em;
-				top: -70em;
-				height: 35em;
-				width: 4em;
-				border-radius: 2em 0em 0em 2em;
+				top: -0.70em;
+				height: 0.35em;
+				width: 0.04em;
+				border-radius: 0.02em 0em 0em 0.02em;
 				background: inherit;
 				content: '';
 				display: block;
@@ -1075,10 +1075,10 @@
 			&:after {
 				position: absolute;
 				left: 0em;
-				bottom: -64em;
-				height: 27em;
-				width: 4em;
-				border-radius: 2em 0em 0em 2em;
+				bottom: -0.64em;
+				height: 0.27em;
+				width: 0.04em;
+				border-radius: 0.02em 0em 0em 0.02em;
 				background: inherit;
 				content: '';
 				display: block;
@@ -1086,85 +1086,85 @@
 		}
 
 		&.landscape{
-			padding: 27em 129em;
-			height: 320em;
-			width: 480em;
+			padding: 0.27em 1.29em;
+			height: 3.20em;
+			width: 4.80em;
 
 			.bottom-bar {
-				left: 90em;
+				left: 0.90em;
 				bottom: 0em;
 				height: 100%;
-				width: 3em;
+				width: 0.03em;
 			}
 
 			.top-bar {
-				left: calc(100% - 60em);
+				left: calc(100% - 0.60em);
 				top: 0em;
 				height: 100%;
-				width: 3em;
+				width: 0.03em;
 			}
 
 			.camera {
-				top: 134em;
-				left: calc(100% - 72em);
+				top: 1.34em;
+				left: calc(100% - 0.72em);
 				margin-left: 0;
 			}
 
 			.speaker{
 				top: 50%;
 				margin-left: 0;
-				margin-top: -32em;
-				left: calc(100% - 72em);
-				width: 10em;
-				height: 64em;
+				margin-top: -0.32em;
+				left: calc(100% - 0.72em);
+				width: 0.10em;
+				height: 0.64em;
 			}
 
 			.sensor {
-				height: 40em;
-				width: 10em;
-				left: calc(100% - 36em);
+				height: 0.40em;
+				width: 0.10em;
+				left: calc(100% - 0.36em);
 				top: 50%;
 				margin-left: 0;
-				margin-top: -20em;
+				margin-top: -0.20em;
 			}
 
 			.home {
-				left: 30em;
+				left: 0.30em;
 				bottom: 50%;
 				margin-left: 0;
-				margin-bottom: -36em;
+				margin-bottom: -0.36em;
 			}
 
 			.sleep {
-				height: 60em;
-				width: 4em;
-				right: -4em;
-				top: calc(100% - 120em);
-				border-radius: 0em 2em 2em 0em;
+				height: 0.60em;
+				width: 0.04em;
+				right: -0.04em;
+				top: calc(100% - 1.20em);
+				border-radius: 0em 0.02em 0.02em 0em;
 			}
 
 			.volume {
-				top: -4em;
-				left: calc(100% - 187em);
-				height: 4em;
-				width: 27em;
-				border-radius: 2em 2em 0em 0em;
+				top: -0.04em;
+				left: calc(100% - 1.87em);
+				height: 0.04em;
+				width: 0.27em;
+				border-radius: 0.02em 0.02em 0em 0em;
 
 				&:before {
-					right: -70em;
+					right: -0.70em;
 					left: auto;
 					top: 0em;
-					width: 35em;
-					height: 4em;
-					border-radius: 2em 2em 0em 0em;
+					width: 0.35em;
+					height: 0.04em;
+					border-radius: 0.02em 0.02em 0em 0em;
 				}
 
 				&:after{
-					width: 27em;
-					height: 4em;
+					width: 0.27em;
+					height: 0.04em;
 					bottom: 0em;
-					left: -64em;
-					border-radius: 2em 2em 0em 0em;
+					left: -0.64em;
+					border-radius: 0.02em 0.02em 0em 0em;
 				}
 			}
 		}
@@ -1178,10 +1178,10 @@
 
 			.home{
 				background: #fcfcfc;
-				box-shadow: inset 0 0 0 1em #bcbcbc;
+				box-shadow: inset 0 0 0 0.01em #bcbcbc;
 
 				&:after{
-					border: 1em solid rgba(0, 0, 0, 0.2);
+					border: 0.01em solid rgba(0, 0, 0, 0.2);
 				}
 			}
 
@@ -1192,42 +1192,42 @@
 	}
 
 	&.nexus5{
-		padding: 50em 15em 50em 15em;
-		width: 320em;
-		height: 568em;
+		padding: 0.50em 0.15em 0.50em 0.15em;
+		width: 3.20em;
+		height: 5.68em;
 		background: #1e1e1e;
-		border-radius: 20em;
+		border-radius: 0.20em;
 
 		&:before{
-			border-radius: 600em / 50em;
+			border-radius: 6.00em / 0.50em;
 			background: inherit;
 			content: '';
 			top: 0;
 			position: absolute;
 			height: 103.1%;
-			width: calc(100% - 26em);
+			width: calc(100% - 0.26em);
 			top: 50%;
 			left: 50%;
 			transform: translateX(-50%) translateY(-50%);
 		}
 
 		.top-bar{
-			width: calc(100% - 8em);
-			height: calc(100% - 6em);
+			width: calc(100% - 0.08em);
+			height: calc(100% - 0.06em);
 			position: absolute;
-			top: 3em;
-			left: 4em;
-			border-radius: 20em;
+			top: 0.03em;
+			left: 0.04em;
+			border-radius: 0.20em;
 			background: #181818;
 
 			&:before {
-				border-radius: 600em / 50em;
+				border-radius: 6.00em / 0.50em;
 				background: inherit;
 				content: '';
 				top: 0;
 				position: absolute;
 				height: 103.0%;
-				width: calc(100% - 26em);
+				width: calc(100% - 0.26em);
 				top: 50%;
 				left: 50%;
 				transform: translateX(-50%) translateY(-50%);
@@ -1239,129 +1239,129 @@
 		}
 
 		.sleep{
-			width: 3em;
+			width: 0.03em;
 			position: absolute;
-			left: -3em;
-			top: 110em;
-			height: 100em;
+			left: -0.03em;
+			top: 1.10em;
+			height: 1.00em;
 			background: inherit;
-			border-radius: 2em 0em 0em 2em;
+			border-radius: 0.02em 0em 0em 0.02em;
 		}
 
 		.volume{
-			width: 3em;
+			width: 0.03em;
 			position: absolute;
-			right: -3em;
-			top: 70em;
-			height: 45em;
+			right: -0.03em;
+			top: 0.70em;
+			height: 0.45em;
 			background: inherit;
-			border-radius: 0em 2em 2em 0em;
+			border-radius: 0em 0.02em 0.02em 0em;
 		}
 
 		.camera {
 			background: #3c3d3d;
-			width: 10em;
-			height: 10em;
+			width: 0.10em;
+			height: 0.10em;
 			position: absolute;
-			top: 18em;
+			top: 0.18em;
 			left: 50%;
 			z-index: 3;
-			margin-left: -5em;
+			margin-left: -0.05em;
 			border-radius: 100%;
 
 			&:before {
 				background: #3c3d3d;
-				width: 6em;
-				height: 6em;
+				width: 0.06em;
+				height: 0.06em;
 				content: '';
 				display: block;
 				position: absolute;
-				top: 2em;
-				left: -100em;
+				top: 0.02em;
+				left: -1.00em;
 				z-index: 3;
 				border-radius: 100%;
 			}
 		}
 
 		&.landscape{
-			padding: 15em 50em 15em 50em;
-			height: 320em;
-			width: 568em;
+			padding: 0.15em 0.50em 0.15em 0.50em;
+			height: 3.20em;
+			width: 5.68em;
 
 			&:before {
 				width: 103.1%;
-				height: calc(100% - 26em);
-				border-radius: 50em / 600em;
+				height: calc(100% - 0.26em);
+				border-radius: 0.50em / 6.00em;
 			}
 
 			.top-bar {
-				left: 3em;
-				top: 4em;
-				height: calc(100% - 8em);
-				width: calc(100% - 6em);
+				left: 0.03em;
+				top: 0.04em;
+				height: calc(100% - 0.08em);
+				width: calc(100% - 0.06em);
 
 				&:before {
 					width: 103%;
-					height: calc(100% - 26em);
-					border-radius: 50em / 600em;
+					height: calc(100% - 0.26em);
+					border-radius: 0.50em / 6.00em;
 				}
 			}
 
 			.sleep{
-				height: 3em;
-				width: 100em;
-				left: calc(100% - 210em);
-				top: -3em;
-				border-radius: 2em 2em 0em 0em;
+				height: 0.03em;
+				width: 1.00em;
+				left: calc(100% - 2.10em);
+				top: -0.03em;
+				border-radius: 0.02em 0.02em 0em 0em;
 			}
 
 			.volume{
-				height: 3em;
-				width: 45em;
-				right: 70em;
+				height: 0.03em;
+				width: 0.45em;
+				right: 0.70em;
 				top: 100%;
-				border-radius: 0em 0em 2em 2em;
+				border-radius: 0em 0em 0.02em 0.02em;
 			}
 
 			.camera {
 				top: 50%;
-				left: calc(100% - 18em);
+				left: calc(100% - 0.18em);
 				margin-left: 0;
-				margin-top: -5em;
+				margin-top: -0.05em;
 
 				&:before {
-					top: -100em;
-					left: 2em;
+					top: -1.00em;
+					left: 0.02em;
 				}
 			}
 		}
 	}
 
 	&.s5{
-		padding: 60em 18em;
-		border-radius: 42em;
-		width: 320em;
-		height: 568em;
+		padding: 0.60em 0.18em;
+		border-radius: 0.42em;
+		width: 3.20em;
+		height: 5.68em;
 		background: #bcbcbc;
 
 		&:before, &:after{
-			width: calc(100% - 52em);
+			width: calc(100% - 0.52em);
 			content: '';
 			display: block;
-			height: 26em;
+			height: 0.26em;
 			background: inherit;
 			position: absolute;
-			border-radius: 500em / 40em;
+			border-radius: 5.00em / 0.40em;
 			left: 50%;
 			transform: translateX(-50%);
 		}
 
 		&:before{
-			top: -7em;
+			top: -0.07em;
 		}
 
 		&:after{
-			bottom: -7em;
+			bottom: -0.07em;
 		}
 
 		.bottom-bar{
@@ -1369,74 +1369,74 @@
 		}
 
 		.top-bar{
-			border-radius: 37em;
-			width: calc(100% - 10em);
-			height: calc(100% - 10em);
-			top: 5em;
-			left: 5em;
+			border-radius: 0.37em;
+			width: calc(100% - 0.10em);
+			height: calc(100% - 0.10em);
+			top: 0.05em;
+			left: 0.05em;
 			background:
 				radial-gradient(rgba(0, 0, 0, 0.02) 20%, transparent 60%) 0 0,
-				radial-gradient(rgba(0, 0, 0, 0.02) 20%, transparent 60%) 3em 3em;
+				radial-gradient(rgba(0, 0, 0, 0.02) 20%, transparent 60%) 0.03em 0.03em;
 			background-color: white;
-			background-size: 4em 4em;
+			background-size: 0.04em 0.04em;
 			background-position: center;
 			z-index: 2;
 			position: absolute;
 
 			&:before, &:after{
-				width: calc(100% - 48em);
+				width: calc(100% - 0.48em);
 				content: '';
 				display: block;
-				height: 26em;
+				height: 0.26em;
 				background: inherit;
 				position: absolute;
-				border-radius: 500em / 40em;
+				border-radius: 5.00em / 0.40em;
 				left: 50%;
 				transform: translateX(-50%);
 			}
 
 			&:before{
-				top: -7em;
+				top: -0.07em;
 			}
 
 			&:after{
-				bottom: -7em;
+				bottom: -0.07em;
 			}
 		}
 
 		.sleep{
-			width: 3em;
+			width: 0.03em;
 			position: absolute;
-			left: -3em;
-			top: 100em;
-			height: 100em;
+			left: -0.03em;
+			top: 1.00em;
+			height: 1.00em;
 			background: #cecece;
-			border-radius: 2em 0em 0em 2em;
+			border-radius: 0.02em 0em 0em 0.02em;
 		}
 
 		.speaker {
-			width: 68em;
-			height: 8em;
+			width: 0.68em;
+			height: 0.08em;
 			position: absolute;
-			top: 20em;
+			top: 0.20em;
 			display: block;
 			z-index: 3;
 			left: 50%;
-			margin-left: -34em;
+			margin-left: -0.34em;
 			background-color: #bcbcbc;
 			background-position: top left;
-			border-radius: 4em;
+			border-radius: 0.04em;
 		}
 
 		.sensor {
 			display: block;
 			position: absolute;
-			top: 20em;
-			right: 110em;
+			top: 0.20em;
+			right: 1.10em;
 			background: #3c3d3d;
 			border-radius: 100%;
-			width: 8em;
-			height: 8em;
+			width: 0.08em;
+			height: 0.08em;
 			z-index: 3;
 
 			&:after {
@@ -1444,11 +1444,11 @@
 				content: '';
 				position: absolute;
 				top: 0em;
-				right: 12em;
+				right: 0.12em;
 				background: #3c3d3d;
 				border-radius: 100%;
-				width: 8em;
-				height: 8em;
+				width: 0.08em;
+				height: 0.08em;
 				z-index: 3;
 			}
 		}
@@ -1456,125 +1456,125 @@
 		.camera {
 			display: block;
 			position: absolute;
-			top: 24em;
-			right: 42em;
+			top: 0.24em;
+			right: 0.42em;
 			background: black;
 			border-radius: 100%;
-			width: 10em;
-			height: 10em;
+			width: 0.10em;
+			height: 0.10em;
 			z-index: 3;
 
 			&:before{
-				width: 4em;
-				height: 4em;
+				width: 0.04em;
+				height: 0.04em;
 				background: #3c3d3d;
 				border-radius: 100%;
 				position: absolute;
 				content: '';
 				top: 50%;
 				left: 50%;
-				margin-top: -2em;
-				margin-left: -2em;
+				margin-top: -0.02em;
+				margin-left: -0.02em;
 			}
 		}
 
 		.home {
 			position: absolute;
 			z-index: 3;
-			bottom: 17em;
+			bottom: 0.17em;
 			left: 50%;
-			width: 70em;
-			height: 20em;
+			width: 0.70em;
+			height: 0.20em;
 			background: white;
-			border-radius: 18em;
+			border-radius: 0.18em;
 			display: block;
-			margin-left: -35em;
-			border: 2em solid black;
+			margin-left: -0.35em;
+			border: 0.02em solid black;
 		}
 
 		&.landscape{
-			padding: 18em 60em;
-			height: 320em;
-			width: 568em;
+			padding: 0.18em 0.60em;
+			height: 3.20em;
+			width: 5.68em;
 
 			&:before, &:after{
-				height: calc(100% - 52em);
-				width: 26em;
-				border-radius: 40em / 500em;
+				height: calc(100% - 0.52em);
+				width: 0.26em;
+				border-radius: 0.40em / 5.00em;
 				transform: translateY(-50%);
 			}
 
 			&:before {
 				top: 50%;
-				left: -7em;
+				left: -0.07em;
 			}
 
 			&:after {
 				top: 50%;
 				left: auto;
-				right: -7em;
+				right: -0.07em;
 			}
 
 			.top-bar{
 				&:before, &:after{
-					width: 26em;
-					height: calc(100% - 48em);
-					border-radius: 40em / 500em;
+					width: 0.26em;
+					height: calc(100% - 0.48em);
+					border-radius: 0.40em / 5.00em;
 					transform: translateY(-50%);
 				}
 
 				&:before{
-					right: -7em;
+					right: -0.07em;
 					top: 50%;
 					left: auto;
 				}
 
 				&:after{
-					left: -7em;
+					left: -0.07em;
 					top: 50%;
 					right: auto;
 				}
 			}
 
 			.sleep{
-				height: 3em;
-				width: 100em;
-				left: calc(100% - 200em);
-				top: -3em;
-				border-radius: 2em 2em 0em 0em;
+				height: 0.03em;
+				width: 1.00em;
+				left: calc(100% - 2.00em);
+				top: -0.03em;
+				border-radius: 0.02em 0.02em 0em 0em;
 			}
 
 			.speaker {
-				height: 68em;
-				width: 8em;
-				left: calc(100% - 20em);
+				height: 0.68em;
+				width: 0.08em;
+				left: calc(100% - 0.20em);
 				top: 50%;
 				margin-left: 0;
-				margin-top: -34em;
+				margin-top: -0.34em;
 			}
 
 			.sensor {
-				right: 20em;
-				top: calc(100% - 110em);
+				right: 0.20em;
+				top: calc(100% - 1.10em);
 
 				&:after{
-					left: -12em;
+					left: -0.12em;
 					right: 0em;
 				}
 			}
 
 			.camera {
-				top: calc(100% - 42em);
-				right: 24em;
+				top: calc(100% - 0.42em);
+				right: 0.24em;
 			}
 
 			.home {
-				width: 20em;
-				height: 70em;
+				width: 0.20em;
+				height: 0.70em;
 				bottom: 50%;
-				margin-bottom: -35em;
+				margin-bottom: -0.35em;
 				margin-left: 0;
-				left: 17em;
+				left: 0.17em;
 			}
 		}
 
@@ -1591,9 +1591,9 @@
 
 			.top-bar{
 				background: radial-gradient(rgba(0, 0, 0, 0.05) 20%, transparent 60%) 0 0,
-				radial-gradient(rgba(0, 0, 0, 0.05) 20%, transparent 60%) 3em 3em;
+				radial-gradient(rgba(0, 0, 0, 0.05) 20%, transparent 60%) 0.03em 0.03em;
 				background-color: #2c2b2c;
-				background-size: 4em 4em;
+				background-size: 0.04em 0.04em;
 			}
 
 			.home{
@@ -1603,23 +1603,23 @@
 	}
 
 	&.lumia920{
-		padding: 80em 35em 125em 35em;
+		padding: 0.80em 0.35em 1.25em 0.35em;
 		background: #ffdd00;
-		width: 320em;
-		height: 533em;
-		border-radius: 40em / 3em;
+		width: 3.20em;
+		height: 5.33em;
+		border-radius: 0.40em / 0.03em;
 
 		.bottom-bar{
 			display: none;
 		}
 
 		.top-bar{
-			width: calc(100% - 24em);
-			height: calc(100% - 32em);
+			width: calc(100% - 0.24em);
+			height: calc(100% - 0.32em);
 			position: absolute;
-			top: 16em;
-			left: 12em;
-			border-radius: 24em;
+			top: 0.16em;
+			left: 0.12em;
+			border-radius: 0.24em;
 			background: black;
 			z-index: 1;
 
@@ -1627,121 +1627,121 @@
 				background: #1e1e1e;
 				display: block;
 				content: '';
-				width: calc(100% - 4em);
-				height: calc(100% - 4em);
-				top: 2em;
-				left: 2em;
+				width: calc(100% - 0.04em);
+				height: calc(100% - 0.04em);
+				top: 0.02em;
+				left: 0.02em;
 				position: absolute;
-				border-radius: 22em;
+				border-radius: 0.22em;
 			}
 		}
 
 		.volume{
-			width: 3em;
+			width: 0.03em;
 			position: absolute;
-			top: 130em;
-			height: 100em;
+			top: 1.30em;
+			height: 1.00em;
 			background: #1e1e1e;
-			right: -3em;
-			border-radius: 0em 2em 2em 0em;
+			right: -0.03em;
+			border-radius: 0em 0.02em 0.02em 0em;
 
 			&:before {
-				width: 3em;
+				width: 0.03em;
 				position: absolute;
-				top: 190em;
+				top: 1.90em;
 				content: '';
 				display: block;
-				height: 50em;
+				height: 0.50em;
 				background: inherit;
 				right: 0em;
-				border-radius: 0em 2em 2em 0em;
+				border-radius: 0em 0.02em 0.02em 0em;
 			}
 
 			&:after {
-				width: 3em;
+				width: 0.03em;
 				position: absolute;
-				top: 460em;
+				top: 4.60em;
 				content: '';
 				display: block;
-				height: 50em;
+				height: 0.50em;
 				background: inherit;
 				right: 0em;
-				border-radius: 0em 2em 2em 0em;
+				border-radius: 0em 0.02em 0.02em 0em;
 			}
 		}
 
 		.camera {
 			background: #3c3d3d;
-			width: 10em;
-			height: 10em;
+			width: 0.10em;
+			height: 0.10em;
 			position: absolute;
-			top: 34em;
-			right: 130em;
+			top: 0.34em;
+			right: 1.30em;
 			z-index: 5;
-			border-radius: 5em;
+			border-radius: 0.05em;
 		}
 
 		.speaker {
 			background: #292728;
-			width: 64em;
-			height: 10em;
+			width: 0.64em;
+			height: 0.10em;
 			position: absolute;
-			top: 38em;
+			top: 0.38em;
 			left: 50%;
-			margin-left: -32em;
-			border-radius: 5em;
+			margin-left: -0.32em;
+			border-radius: 0.05em;
 			z-index: 3;
 		}
 
 		&.landscape{
-			padding: 35em 80em 35em 125em;
-			height: 320em;
-			width: 568em;
-			border-radius: 2em / 100em;
+			padding: 0.35em 0.80em 0.35em 1.25em;
+			height: 3.20em;
+			width: 5.68em;
+			border-radius: 0.02em / 1.00em;
 
 			.top-bar{
-				height: calc(100% - 24em);
-				width: calc(100% - 32em);
-				left: 16em;
-				top: 12em;
+				height: calc(100% - 0.24em);
+				width: calc(100% - 0.32em);
+				left: 0.16em;
+				top: 0.12em;
 			}
 
 			.volume {
-				height: 3em;
-				right: 130em;
-				width: 100em;
+				height: 0.03em;
+				right: 1.30em;
+				width: 1.00em;
 				top: 100%;
-				border-radius: 0em 0em 2em 2em;
+				border-radius: 0em 0em 0.02em 0.02em;
 
 				&:before{
-					height: 3em;
-					right: 190em;
+					height: 0.03em;
+					right: 1.90em;
 					top: 0em;
-					width: 50em;
-					border-radius: 0em 0em 2em 2em;
+					width: 0.50em;
+					border-radius: 0em 0em 0.02em 0.02em;
 				}
 
 				&:after{
-					height: 3em;
-					right: 430em;
+					height: 0.03em;
+					right: 4.30em;
 					top: 0em;
-					width: 50em;
-					border-radius: 0em 0em 2em 2em;
+					width: 0.50em;
+					border-radius: 0em 0em 0.02em 0.02em;
 				}
 			}
 
 			.camera {
-				right: 30em;
-				top: calc(100% - 140em);
+				right: 0.30em;
+				top: calc(100% - 1.40em);
 			}
 
 			.speaker {
-				width: 10em;
-				height: 64em;
+				width: 0.10em;
+				height: 0.64em;
 				top: 50%;
 				margin-left: 0;
-				margin-top: -32em;
-				left: calc(100% - 48em);
+				margin-top: -0.32em;
+				left: calc(100% - 0.48em);
 			}
 		}
 
@@ -1751,7 +1751,7 @@
 
 		&.white{
 			background: white;
-			box-shadow: 0 1em 2em 0 rgba(0,0,0,0.2);
+			box-shadow: 0 0.01em 0.02em 0 rgba(0,0,0,0.2);
 		}
 
 		&.blue{
@@ -1764,55 +1764,55 @@
 	}
 
 	&.htc-one {
-		padding: 72em 25em 100em 25em;
-		width: 320em;
-		height: 568em;
+		padding: 0.72em 0.25em 1.00em 0.25em;
+		width: 3.20em;
+		height: 5.68em;
 		background: #bebebe;
-		border-radius: 34em;
+		border-radius: 0.34em;
 
 		&:before{
 			content: '';
 			display: block;
-			width: calc(100% - 4em);
-			height: calc(100% - 4em);
+			width: calc(100% - 0.04em);
+			height: calc(100% - 0.04em);
 			position: absolute;
-			top: 2em;
-			left: 2em;
+			top: 0.02em;
+			left: 0.02em;
 			background: #adadad;
-			border-radius: 32em;
+			border-radius: 0.32em;
 		}
 
 		&:after{
 			content: '';
 			display: block;
-			width: calc(100% - 8em);
-			height: calc(100% - 8em);
+			width: calc(100% - 0.08em);
+			height: calc(100% - 0.08em);
 			position: absolute;
-			top: 4em;
-			left: 4em;
+			top: 0.04em;
+			left: 0.04em;
 			background: #eeeeee;
-			border-radius: 30em;
+			border-radius: 0.30em;
 		}
 
 		.top-bar{
-			width: calc(100% - 4em);
-			height: 635em;
+			width: calc(100% - 0.04em);
+			height: 6.35em;
 			position: absolute;
 			background: #424242;
-			top: 50em;
+			top: 0.50em;
 			z-index: 1;
-			left: 2em;
+			left: 0.02em;
 
 			&:before{
 				content: '';
 				position: absolute;
-				width: calc(100% - 4em);
+				width: calc(100% - 0.04em);
 				height: 100%;
 				position: absolute;
 				background: black;
 				top: 0em;
 				z-index: 1;
-				left: 2em;
+				left: 0.02em;
 			}
 		}
 
@@ -1821,29 +1821,29 @@
 		}
 
 		.speaker {
-			height: 16em;
-			width: 216em;
+			height: 0.16em;
+			width: 2.16em;
 			display: block;
 			position: absolute;
-			top: 22em;
+			top: 0.22em;
 			z-index: 2;
 			left: 50%;
-			margin-left: -108em;
+			margin-left: -1.08em;
 			background: radial-gradient(#343434 25%, transparent 50%) 0 0,
-			radial-gradient(#343434 25%, transparent 50%) 4em 4em;
-			background-size: 4em 4em;
+			radial-gradient(#343434 25%, transparent 50%) 0.04em 0.04em;
+			background-size: 0.04em 0.04em;
 			background-position: top left;
 
 			&:after {
 				content: '';
-				height: 16em;
-				width: 216em;
+				height: 0.16em;
+				width: 2.16em;
 				display: block;
 				position: absolute;
-				top: 676em;
+				top: 6.76em;
 				z-index: 2;
 				left: 50%;
-				margin-left: -108em;
+				margin-left: -1.08em;
 				background: inherit;
 			}
 		}
@@ -1851,37 +1851,37 @@
 		.camera {
 			display: block;
 			position: absolute;
-			top: 18em;
-			right: 38em;
+			top: 0.18em;
+			right: 0.38em;
 			background: #3c3d3d;
 			border-radius: 100%;
-			width: 24em;
-			height: 24em;
+			width: 0.24em;
+			height: 0.24em;
 			z-index: 3;
 
 			&:before {
-				width: 8em;
-				height: 8em;
+				width: 0.08em;
+				height: 0.08em;
 				background: black;
 				border-radius: 100%;
 				position: absolute;
 				content: '';
 				top: 50%;
 				left: 50%;
-				margin-top: -4em;
-				margin-left: -4em;
+				margin-top: -0.04em;
+				margin-left: -0.04em;
 			}
 		}
 
 		.sensor {
 			display: block;
 			position: absolute;
-			top: 29em;
-			left: 60em;
+			top: 0.29em;
+			left: 0.60em;
 			background: #3c3d3d;
 			border-radius: 100%;
-			width: 8em;
-			height: 8em;
+			width: 0.08em;
+			height: 0.08em;
 			z-index: 3;
 
 			&:after {
@@ -1889,89 +1889,89 @@
 				content: '';
 				position: absolute;
 				top: 0em;
-				right: 12em;
+				right: 0.12em;
 				background: #3c3d3d;
 				border-radius: 100%;
-				width: 8em;
-				height: 8em;
+				width: 0.08em;
+				height: 0.08em;
 				z-index: 3;
 			}
 		}
 
 		&.landscape{
-			padding: 25em 72em 25em 100em;
-			height: 320em;
-			width: 568em;
+			padding: 0.25em 0.72em 0.25em 1.00em;
+			height: 3.20em;
+			width: 5.68em;
 
 			.top-bar{
-				height: calc(100% - 4em);
-				width: 635em;
-				left: calc(100% - 685em);
-				top: 2em;
+				height: calc(100% - 0.04em);
+				width: 6.35em;
+				left: calc(100% - 6.85em);
+				top: 0.02em;
 			}
 
 			.speaker {
-				width: 16em;
-				height: 216em;
-				left: calc(100% - 38em);
+				width: 0.16em;
+				height: 2.16em;
+				left: calc(100% - 0.38em);
 				top: 50%;
 				margin-left: 0em;
-				margin-top: -108em;
+				margin-top: -1.08em;
 
 				&:after {
-					width: 16em;
-					height: 216em;
-					left: calc(100% - 692em);
+					width: 0.16em;
+					height: 2.16em;
+					left: calc(100% - 6.92em);
 					top: 50%;
 					margin-left: 0;
-					margin-top: -108em;
+					margin-top: -1.08em;
 				}
 			}
 
 			.camera {
-				right: 18em;
-				top: calc(100% - 38em);
+				right: 0.18em;
+				top: calc(100% - 0.38em);
 			}
 
 			.sensor {
-				left: calc(100% - 29em);
-				top: 60em;
+				left: calc(100% - 0.29em);
+				top: 0.60em;
 
 				:after {
 					right: 0;
-					top: -12em;
+					top: -0.12em;
 				}
 			}
 		}
 	}
 
 	&.ipad{
-		width: 576em;
-		height: 768em;
-		padding: 90em 25em;
+		width: 5.76em;
+		height: 7.68em;
+		padding: 0.90em 0.25em;
 		background: #242324;
-		border-radius: 44em;
+		border-radius: 0.44em;
 
 		&:before{
-			width: calc(100% - 8em);
-			height: calc(100% - 8em);
+			width: calc(100% - 0.08em);
+			height: calc(100% - 0.08em);
 			position: absolute;
 			content: '';
 			display: block;
-			top: 4em;
-			left: 4em;
-			border-radius: 40em;
+			top: 0.04em;
+			left: 0.04em;
+			border-radius: 0.40em;
 			background: #1e1e1e;
 		}
 
 		.camera {
 			background: #3c3d3d;
-			width: 10em;
-			height: 10em;
+			width: 0.10em;
+			height: 0.10em;
 			position: absolute;
-			top: 44em;
+			top: 0.44em;
 			left: 50%;
-			margin-left: -5em;
+			margin-left: -0.05em;
 			border-radius: 100%;
 		}
 
@@ -1981,21 +1981,21 @@
 
 		.home {
 			background: #242324;
-			border-radius: 36em;
-			width: 50em;
-			height: 50em;
+			border-radius: 0.36em;
+			width: 0.50em;
+			height: 0.50em;
 			position: absolute;
 			left: 50%;
-			margin-left: -25em;
-			bottom: 22em;
+			margin-left: -0.25em;
+			bottom: 0.22em;
 
 			&:after {
-				width: 15em;
-				height: 15em;
-				margin-top: -8em;
-				margin-left: -8em;
-				border: 1em solid rgba(255, 255, 255, 0.1);
-				border-radius: 4em;
+				width: 0.15em;
+				height: 0.15em;
+				margin-top: -0.08em;
+				margin-left: -0.08em;
+				border: 0.01em solid rgba(255, 255, 255, 0.1);
+				border-radius: 0.04em;
 				position: absolute;
 				display: block;
 				content: '';
@@ -2005,22 +2005,22 @@
 		}
 
 		&.landscape{
-			height: 576em;
-			width: 768em;
-			padding: 25em 90em;
+			height: 5.76em;
+			width: 7.68em;
+			padding: 0.25em 0.90em;
 
 			.camera {
-				left: calc(100% - 44em);
+				left: calc(100% - 0.44em);
 				top: 50%;
 				margin-left: 0;
-				margin-top: -5em;
+				margin-top: -0.05em;
 			}
 
 			.home {
 				top: 50%;
-				left: 22em;
+				left: 0.22em;
 				margin-left: 0;
-				margin-top: -25em;
+				margin-top: -0.25em;
 			}
 		}
 
@@ -2033,64 +2033,64 @@
 
 			.home{
 				background: #fcfcfc;
-				box-shadow: inset 0 0 0 1em #bcbcbc;
+				box-shadow: inset 0 0 0 0.01em #bcbcbc;
 
 				&:after{
-					border: 1em solid rgba(0, 0, 0, 0.2);
+					border: 0.01em solid rgba(0, 0, 0, 0.2);
 				}
 			}
 		}
 	}
 
 	&.macbook {
-		width: 960em;
-		height: 600em;
-		padding: 44em 44em 76em;
+		width: 9.60em;
+		height: 6.00em;
+		padding: 0.44em 0.44em 0.76em;
 		margin: 0 auto;
 		background: #bebebe;
-		border-radius: 34em;
+		border-radius: 0.34em;
 
 		&:before {
-			width: calc(100% - 8em);
-			height: calc(100% - 8em);
+			width: calc(100% - 0.08em);
+			height: calc(100% - 0.08em);
 			position: absolute;
 			content: '';
 			display: block;
-			top: 4em;
-			left: 4em;
-			border-radius: 30em;
+			top: 0.04em;
+			left: 0.04em;
+			border-radius: 0.30em;
 			background: #1e1e1e;
 		}
 
 		.top-bar {
-			width: calc(100% + 2 * 70em);
-			height: 40em;
+			width: calc(100% + 2 * 0.70em);
+			height: 0.40em;
 			position: absolute;
 			content: '';
 			display: block;
-			top: 680em;
-			left: -70em;
-			border-bottom-left-radius: 90em 18em;
-			border-bottom-right-radius: 90em 18em;
+			top: 6.80em;
+			left: -0.70em;
+			border-bottom-left-radius: 0.90em 0.18em;
+			border-bottom-right-radius: 0.90em 0.18em;
 			background: #bebebe;
-			box-shadow: inset 0em -4em 13em 3em rgba(34, 34, 34, 0.6);
+			box-shadow: inset 0em -0.04em 0.13em 0.03em rgba(34, 34, 34, 0.6);
 
 			&:before {
 				width: 100%;
-				height: 24em;
+				height: 0.24em;
 				content: '';
 				display: block;
 				top: 0;
 				left: 0;
 				background: #f0f0f0;
-				border-bottom: 2em solid #aaa;
-				border-radius: 5em;
+				border-bottom: 0.02em solid #aaa;
+				border-radius: 0.05em;
 				position: relative;
 			}
 
 			&:after {
 				width: 16%;
-				height: 14em;
+				height: 0.14em;
 				content: '';
 				display: block;
 				top: 0;
@@ -2100,25 +2100,25 @@
 				margin-right: auto;
 				left: 0;
 				right: 0;
-				border-radius: 0 0 20em 20em;
-				box-shadow: inset 0em -3em 10em #999;
+				border-radius: 0 0 0.20em 0.20em;
+				box-shadow: inset 0em -0.03em 0.10em #999;
 			}
 		}
 
 		.bottom-bar {
 			background: transparent;
-			width: calc(100% + 2 * 70em);
-			height: 26em;
+			width: calc(100% + 2 * 0.70em);
+			height: 0.26em;
 			position: absolute;
 			content: '';
 			display: block;
-			top: 680em;
-			left: -70em;
+			top: 6.80em;
+			left: -0.70em;
 
 			&:before,
 			&:after {
-				height: calc(100% - 2em);
-				width: 80em;
+				height: calc(100% - 0.02em);
+				width: 0.80em;
 				content: '';
 				display: block;
 				top: 0;
@@ -2141,12 +2141,12 @@
 
 		.camera {
 			background: #3c3d3d;
-			width: 10em;
-			height: 10em;
+			width: 0.10em;
+			height: 0.10em;
 			position: absolute;
-			top: 20em;
+			top: 0.20em;
 			left: 50%;
-			margin-left: -5em;
+			margin-left: -0.05em;
 			border-radius: 100%;
 		}
 
@@ -2156,12 +2156,12 @@
 	}
 
 	&.iphone-x {
-		width: 375em;
-		height: 812em;
-		padding: 26em;
+		width: 3.75em;
+		height: 8.12em;
+		padding: 0.26em;
 		background: #fdfdfd;
-		box-shadow:inset 0 0 11em 0 black;
-		border-radius: 66em;
+		box-shadow:inset 0 0 0.11em 0 black;
+		border-radius: 0.66em;
 
 		.overflow {
 			width: 100%;
@@ -2169,200 +2169,200 @@
 			position: absolute;
 			top: 0;
 			left: 0;
-			border-radius: 66em;
+			border-radius: 0.66em;
 			overflow: hidden;
 		}
 
 		.shadow {
 			border-radius: 100%;
-			width: 90em;
-			height: 90em;
+			width: 0.90em;
+			height: 0.90em;
 			position: absolute;
 			background: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%,rgba(255,255,255,0) 60%);
 		}
 
 		.shadow--tl {
-			top: -20em;
-			left: -20em;
+			top: -0.20em;
+			left: -0.20em;
 		}
 
 		.shadow--tr {
-			top: -20em;
-			right: -20em;
+			top: -0.20em;
+			right: -0.20em;
 		}
 
 		.shadow--bl {
-			bottom: -20em;
-			left: -20em;
+			bottom: -0.20em;
+			left: -0.20em;
 		}
 
 		.shadow--br {
-			bottom: -20em;
-			right: -20em;
+			bottom: -0.20em;
+			right: -0.20em;
 		}
 
 		&:before{
-			width: calc(100% - 10em);
-			height: calc(100% - 10em);
+			width: calc(100% - 0.10em);
+			height: calc(100% - 0.10em);
 			position: absolute;
-			top: 5em;
+			top: 0.05em;
 			content: '';
-			left: 5em;
-			border-radius: 61em;
+			left: 0.05em;
+			border-radius: 0.61em;
 			background: black;
 			z-index: 1;
 		}
 
 		.inner-shadow{
-			width: calc(100% - 20em);
-			height: calc(100% - 20em);
+			width: calc(100% - 0.20em);
+			height: calc(100% - 0.20em);
 			position: absolute;
-			top: 10em;
+			top: 0.10em;
 			overflow: hidden;
-			left: 10em;
-			border-radius: 56em;
-			box-shadow: inset 0 0 15em 0 rgba(white, 0.66);
+			left: 0.10em;
+			border-radius: 0.56em;
+			box-shadow: inset 0 0 0.15em 0 rgba(white, 0.66);
 			z-index: 1;
 
 			&:before{
-				box-shadow:inset 0 0 20em 0 #FFFFFF;
+				box-shadow:inset 0 0 0.20em 0 #FFFFFF;
 				width: 100%;
 				height: 116%;
 				position: absolute;
 				top: -8%;
 				content: '';
 				left: 0;
-				border-radius: 200em / 112em;
+				border-radius: 2.00em / 1.12em;
 				z-index: 2;
 			}
 		}
 
 		.screen {
-			border-radius: 40em;
+			border-radius: 0.40em;
 			box-shadow: none;
 		}
 
 		.top-bar, .bottom-bar {
 			width: 100%;
 			position: absolute;
-			height: 8em;
+			height: 0.08em;
 			background: rgba(black, 0.1);
 			left: 0;
 		}
 
 		.top-bar {
-			top: 80em;
+			top: 0.80em;
 		}
 
 		.bottom-bar {
-			bottom: 80em;
+			bottom: 0.80em;
 		}
 
 		.volume, .volume:before, .volume:after, .sleep {
-			width: 3em;
+			width: 0.03em;
 			background: #b5b5b5;
 			position: absolute;
 		}
 
 		.volume {
-			left: -3em;
-			top: 116em;
-			height: 32em;
+			left: -0.03em;
+			top: 1.16em;
+			height: 0.32em;
 
 			&:before {
-				height: 62em;
-				top: 62em;
+				height: 0.62em;
+				top: 0.62em;
 				content: '';
 				left: 0;
 			}
 
 			&:after {
-				height: 62em;
-				top: 140em;
+				height: 0.62em;
+				top: 1.40em;
 				content: '';
 				left: 0;
 			}
 		}
 
 		.sleep {
-			height: 96em;
-			top: 200em;
-			right: -3em;
+			height: 0.96em;
+			top: 2.00em;
+			right: -0.03em;
 		}
 
 		.camera {
-			width: 6em;
-			height: 6em;
-			top: 9em;
+			width: 0.06em;
+			height: 0.06em;
+			top: 0.09em;
 			border-radius: 100%;
 			position: absolute;
-			left: 154em;
+			left: 1.54em;
 			background: #0d4d71;
 		}
 
 		.speaker {
-			height: 6em;
-			width: 60em;
+			height: 0.06em;
+			width: 0.60em;
 			left: 50%;
 			position: absolute;
-			top: 9em;
-			margin-left: -30em;
+			top: 0.09em;
+			margin-left: -0.30em;
 			background: #171818;
-			border-radius: 6em;
+			border-radius: 0.06em;
 		}
 
 		.notch {
 			position: absolute;
-			width: 210em;
-			height: 30em;
-			top: 26em;
-			left: 108em;
+			width: 2.10em;
+			height: 0.30em;
+			top: 0.26em;
+			left: 1.08em;
 			z-index: 4;
 			background: black;
-			border-bottom-left-radius: 24em;
-		    border-bottom-right-radius: 24em;
+			border-bottom-left-radius: 0.24em;
+		    border-bottom-right-radius: 0.24em;
 
 		    &:before, &:after {
 				content: '';
-				height: 8em;
+				height: 0.08em;
 				position: absolute;
 				top: 0;
-				width: 8em;
+				width: 0.08em;
 		    }
 
 			&:after {
 				background: radial-gradient(circle at bottom left, transparent 0, transparent 70%, black 70%, black 100%);
-				left: -8em;
+				left: -0.08em;
 			}
 
 			&:before {
 				background: radial-gradient(circle at bottom right, transparent 0, transparent 70%, black 70%, black 100%);
-				right: -8em;
+				right: -0.08em;
 			}
 		}
 
 		&.landscape {
-			height: 375em;
-			width: 812em;
+			height: 3.75em;
+			width: 8.12em;
 
 			.top-bar, .bottom-bar {
-				width: 8em;
+				width: 0.08em;
 				height: 100%;
 				top: 0;
 			}
 
 			.top-bar {
-				left: 80em;
+				left: 0.80em;
 			}
 
 			.bottom-bar {
-				right: 80em;
+				right: 0.80em;
 				bottom: auto;
 				left: auto;
 			}
 
 			.volume, .volume:before, .volume:after, .sleep {
-				height: 3em;
+				height: 0.03em;
 			}
 
 			.inner-shadow:before {
@@ -2370,58 +2370,58 @@
 				width: 116%;
 				left: -8%;
 				top: 0;
-				border-radius: 112em / 200em;
+				border-radius: 1.12em / 2.00em;
 			}
 
 			.volume {
-				bottom: -3em;
+				bottom: -0.03em;
 				top: auto;
-				left: 116em;
-				width: 32em;
+				left: 1.16em;
+				width: 0.32em;
 
 				&:before {
-					width: 62em;
-					left: 62em;
+					width: 0.62em;
+					left: 0.62em;
 					top: 0;
 				}
 
 				&:after {
-					width: 62em;
-					left: 140em;
+					width: 0.62em;
+					left: 1.40em;
 					top: 0;
 				}
 			}
 
 			.sleep {
-				width: 96em;
-				left: 200em;
-				top: -3em;
+				width: 0.96em;
+				left: 2.00em;
+				top: -0.03em;
 				right: auto;
 			}
 
 			.camera {
-				left: 9em;
-				bottom: 154em;
+				left: 0.09em;
+				bottom: 1.54em;
 				top: auto;
 			}
 
 			.speaker {
-				width: 6em;
-				height: 60em;
-				left: 9em;
+				width: 0.06em;
+				height: 0.60em;
+				left: 0.09em;
 				top: 50%;
-				margin-top: -30em;
+				margin-top: -0.30em;
 				margin-left: 0;
 			}
 
 			.notch {
-				height: 210em;
-				width: 30em;
-				left: 26em;
-				bottom: 108em;
+				height: 2.10em;
+				width: 0.30em;
+				left: 0.26em;
+				bottom: 1.08em;
 				top: auto;
-				border-top-right-radius: 24em;
-			    border-bottom-right-radius: 24em;
+				border-top-right-radius: 0.24em;
+			    border-bottom-right-radius: 0.24em;
 			    border-bottom-left-radius: 0;
 
 				&:before, &:after {
@@ -2430,24 +2430,24 @@
 
 				&:after {
 					background: radial-gradient(circle at bottom right, transparent 0, transparent 70%, black 70%, black 100%);
-					bottom: -8em;
+					bottom: -0.08em;
 					top: auto;
 				}
 
 				&:before {
 					background: radial-gradient(circle at top right, transparent 0, transparent 70%, black 70%, black 100%);
-					top: -8em;
+					top: -0.08em;
 				}
 			}	
 		}
 	}
 
 	&.note8 {
-		width: 400em;
-		height: 822em;
+		width: 4.00em;
+		height: 8.22em;
 		background: black;
-		border-radius: 34em;
-		padding: 45em 10em;
+		border-radius: 0.34em;
+		padding: 0.45em 0.10em;
 
 		.overflow {
 			width: 100%;
@@ -2455,39 +2455,39 @@
 			position: absolute;
 			top: 0;
 			left: 0;
-			border-radius: 34em;
+			border-radius: 0.34em;
 			overflow: hidden;
 		}
 
 		.speaker {
-			height: 8em;
-			width: 56em;
+			height: 0.08em;
+			width: 0.56em;
 			left: 50%;
 			position: absolute;
-			top: 25em;
-			margin-left: -28em;
+			top: 0.25em;
+			margin-left: -0.28em;
 			background: #171818;
 			z-index: 1;
-			border-radius: 8em;
+			border-radius: 0.08em;
 		}
 
 		.camera {
-			height: 18em;
-			width: 18em;
-			left: 86em;
+			height: 0.18em;
+			width: 0.18em;
+			left: 0.86em;
 			position: absolute;
-			top: 18em;
+			top: 0.18em;
 			background: #212b36;
 			z-index: 1;
 			border-radius: 100%;
 
 			&:before{
 				content: '';
-				height: 8em;
-				width: 8em;
-				left: -22em;
+				height: 0.08em;
+				width: 0.08em;
+				left: -0.22em;
 				position: absolute;
-				top: 5em;
+				top: 0.05em;
 				background: #212b36;
 				z-index: 1;
 				border-radius: 100%;
@@ -2495,20 +2495,20 @@
 		}
 
 		.sensors {
-			height: 10em;
-			width: 10em;
-			left: 120em;
+			height: 0.10em;
+			width: 0.10em;
+			left: 1.20em;
 			position: absolute;
-			top: 22em;
+			top: 0.22em;
 			background: #1d233b;
 			z-index: 1;
 			border-radius: 100%;
 
 			&:before{
 				content: '';
-				height: 10em;
-				width: 10em;
-				left: 18em;
+				height: 0.10em;
+				width: 0.10em;
+				left: 0.18em;
 				position: absolute;
 				top: 0;
 				background: #1d233b;
@@ -2518,23 +2518,23 @@
 		}
 
 		.more-sensors {
-			height: 16em;
-			width: 16em;
-			left: 285em;
+			height: 0.16em;
+			width: 0.16em;
+			left: 2.85em;
 			position: absolute;
-			top: 18em;
+			top: 0.18em;
 			background: #33244a;
-			box-shadow: 0 0 0 2em rgba(white, 0.1);
+			box-shadow: 0 0 0 0.02em rgba(white, 0.1);
 			z-index: 1;
 			border-radius: 100%;
 
 			&:before{
 				content: '';
-				height: 11em;
-				width: 11em;
-				left: 40em;
+				height: 0.11em;
+				width: 0.11em;
+				left: 0.40em;
 				position: absolute;
-				top: 4em;
+				top: 0.04em;
 				background: #214a61;
 				z-index: 1;
 				border-radius: 100%;
@@ -2542,158 +2542,158 @@
 		}
 
 		.sleep {
-			width: 2em;
-			height: 56em;
+			width: 0.02em;
+			height: 0.56em;
 			background: black;
 			position: absolute;
-			top: 288em;
-			right: -2em;
+			top: 2.88em;
+			right: -0.02em;
 		}
 
 		.volume {
-			width: 2em;
-			height: 120em;
+			width: 0.02em;
+			height: 1.20em;
 			background: black;
 			position: absolute;
-			top: 168em;
-			left: -2em;
+			top: 1.68em;
+			left: -0.02em;
 
 			&:before {
 				content: '';
-				top: 168em;
-				width: 2em;
+				top: 1.68em;
+				width: 0.02em;
 				position: absolute;
 				left: 0;
 				background: black;
-				height: 56em;
+				height: 0.56em;
 			}
 		}
 
 		.inner {
 			width: 100%;
-			height: calc(100% - 8em);
+			height: calc(100% - 0.08em);
 			position: absolute;
-			top: 2em;
+			top: 0.02em;
 			content: '';
 			left: 0em;
-			border-radius: 34em;
-			border-top: 2em solid #9fa0a2;
-			border-bottom: 2em solid #9fa0a2;
+			border-radius: 0.34em;
+			border-top: 0.02em solid #9fa0a2;
+			border-bottom: 0.02em solid #9fa0a2;
 			background: black;
 			z-index: 1;
-			box-shadow: inset 0 0 6em 0 rgba(white, 0.5);
+			box-shadow: inset 0 0 0.06em 0 rgba(white, 0.5);
 		}
 
 		.shadow{
 			box-shadow:
-				inset 0 0 60em 0 white,
-				inset 0 0 30em 0 rgba(white, 0.5),
-				0 0 20em 0 white,
-				0 0 20em 0 rgba(white, 0.5);
+				inset 0 0 0.60em 0 white,
+				inset 0 0 0.30em 0 rgba(white, 0.5),
+				0 0 0.20em 0 white,
+				0 0 0.20em 0 rgba(white, 0.5);
 			height: 101%;
 			position: absolute;
 			top: -0.5%;
 			content: '';
-			width: calc(100% - 20em);
-			left: 10em;
-			border-radius: 38em;
+			width: calc(100% - 0.20em);
+			left: 0.10em;
+			border-radius: 0.38em;
 			z-index: 5;
 			pointer-events: none;
 		}
 
 		.screen {
-			border-radius: 14em;
+			border-radius: 0.14em;
 			box-shadow: none;
 		}
 
 		&.landscape {
-			height: 400em;
-			width: 822em;
-			padding: 10em 45em;
+			height: 4.00em;
+			width: 8.22em;
+			padding: 0.10em 0.45em;
 
 			.speaker {
-				height: 56em;
-				width: 8em;
+				height: 0.56em;
+				width: 0.08em;
 				top: 50%;
-				margin-top: -28em;
+				margin-top: -0.28em;
 				margin-left: 0;
-				right: 25em;
+				right: 0.25em;
 				left: auto;
 			}
 
 			.camera {
-				top: 86em;
-				right: 18em;
+				top: 0.86em;
+				right: 0.18em;
 				left: auto;
 
 				&:before {
-					top: -22em;
-					left: 5em;
+					top: -0.22em;
+					left: 0.05em;
 				}
 			}
 
 			.sensors {
-				top: 120em;
-				right: 22em;
+				top: 1.20em;
+				right: 0.22em;
 				left: auto;
 
 				&:before {
-					top: 18em;
+					top: 0.18em;
 					left: 0;
 				}
 			}
 
 			.more-sensors {
-				top: 285em;
-				right: 18em;
+				top: 2.85em;
+				right: 0.18em;
 				left: auto;
 
 				&:before {
-					top: 40em;
-					left: 4em;
+					top: 0.40em;
+					left: 0.04em;
 				}
 			}
 
 			.sleep {
-				bottom: -2em;
+				bottom: -0.02em;
 				top: auto;
-				right: 288em;
-				width: 56em;
-				height: 2em;
+				right: 2.88em;
+				width: 0.56em;
+				height: 0.02em;
 			}
 
 			.volume {
-				width: 120em;
-				height: 2em;
-				top: -2em;
-				right: 168em;
+				width: 1.20em;
+				height: 0.02em;
+				top: -0.02em;
+				right: 1.68em;
 				left: auto;
 
 				&:before {
-					right: 168em;
+					right: 1.68em;
 					left: auto;
 					top: 0;
-					width: 56em;
-					height: 2em;
+					width: 0.56em;
+					height: 0.02em;
 				}
 			}
 
 			.inner {
 				height: 100%;
-				width: calc(100% - 8em);
-				left: 2em;
+				width: calc(100% - 0.08em);
+				left: 0.02em;
 				top: 0;
 				border-top: 0;
 				border-bottom: 0;
-				border-left: 2em solid #9fa0a2;
-				border-right: 2em solid #9fa0a2;
+				border-left: 0.02em solid #9fa0a2;
+				border-right: 0.02em solid #9fa0a2;
 			}
 
 			.shadow {
 				width: 101%;
-				height: calc(100% - 20em);
+				height: calc(100% - 0.20em);
 				left: -0.5%;
-				top: 10em;
+				top: 0.10em;
 			}
 		}
 	}
